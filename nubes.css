@@ -1,0 +1,23 @@
+.contNubes{
+    position: absolute;
+    background: red;
+    width: 20rem;
+    height:4rem;
+    top: 1rem;
+    left:2rem;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+
+
+.nubes{
+    background-color: blue;
+    width: 10rem;
+    height: 100%;
+}
+.radio{
+    border-radius: 15% 0% 0% 15%;
+}

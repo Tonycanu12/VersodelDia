@@ -1,0 +1,14 @@
+.luna{
+    position: relative;
+    right: 50vw;
+    left: 45vw;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+    background-color: rgb(229, 230, 248,1);
+    box-shadow: 0 0 0.5rem 1rem rgb(219, 221, 244,0.4),
+                0 0 1rem 2rem rgb(219, 221, 244,0.3),
+                0 0 2rem 5rem rgb(219, 221, 244,0.2),
+                0 0 3rem 15rem rgb(219, 221, 244,0.1);            
+}

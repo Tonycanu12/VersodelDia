@@ -1,0 +1,110 @@
+body{
+    background:#171717 ;
+}
+
+.container {
+    background-image: linear-gradient(#061327, #b5c2ec);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.space{
+
+    width: var(--size);
+    height: var(--size);
+    background: #fff;
+    box-shadow: var(--space-layer);
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 75%;
+    animation: moveStars var(--duration) linear infinite;
+    border-radius: 5px 10px 5px 10px;
+}
+
+@keyframes moveStars {
+    from {transform: translateY(-100vh);}
+    to {transform: translateY(0vh)}
+}
+
+.montanias{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+}
+.montanias-front{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    justify-content: flex-end;
+
+}
+
+.mont{
+    background-color: #e6e7f9;
+    width: 60vw;
+    height: 15vh;
+    border-style: none;
+    border-color: none;
+    border-radius: 5% 50% 0px 0px;
+    border-bottom: none;
+}
+.mont2{
+    background-color: #e6e7f9;
+    width: 45vw;
+    height: 20vh;
+    border-style: none;
+    border-color: none;
+    border-radius: 50% 5% 0px 0px;
+    border-bottom: none;
+    
+}
+.mont3{
+    background-color: #e6e7f9;
+    width: 50vw;
+    height: 25vh;
+    border-style: solid;
+    border-color: rgb(232, 243, 245);
+    border-radius: 50% 50% 0px 0px;
+    border-bottom: none;
+}
+
+/*arbol*/
+/**/
+.arboles{
+    width: 300px;
+    display: flex;
+    align-items: flex-end;  
+}
+.arbol{
+    background-color: #415799;
+    height: var(--alturaArbol);
+    width: 10vw;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.arbolMargin{
+    margin-left: -10%;
+}
+
+.left{
+    position: absolute;
+    flex-direction: row;
+    left: 2rem;
+    bottom: 14vh;
+}
+
+.right{
+    position:absolute;
+    flex-direction: row-reverse;
+    right: 0;
+    bottom: 19vh;
+
+}
